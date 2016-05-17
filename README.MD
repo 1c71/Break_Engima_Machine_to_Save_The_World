@@ -1,5 +1,14 @@
+<!-- 
+    轮子本身可以转
+    Cracking the NAZI Enigma Code Machine
+    https://www.youtube.com/watch?v=Hb44bGY2KdU
+
+    那么什么时候需要转???
+    解决了这个再说
+ -->
+
 ## 破解英格玛密码机 ( Crack Engima Machine to save the world )
-<img src="img/1.Enigma-machine.jpg" width="320">  
+<img src="img/1.Enigma-machine.jpg" width="50%">  
 这里有一个 Python 写的英格玛模拟器,  
 而你要做的是写程序模拟 阿兰图灵(Alan Turing) 的 Bomba 机器,  
 <img src="img/bomba.jpg">  
@@ -110,8 +119,7 @@ https://en.wikipedia.org/wiki/Enigma_machine
 | 序号 | 链接 |
 |------|------|
 |   1   |  http://red-badger.com/blog/2015/02/23/understanding-the-enigma-machine-with-30-lines-of-ruby-star-of-the-2014-film-the-imitation-game/    |
-|   2   |   Enigma Extra Footage - Numberphile    
-https://www.youtube.com/watch?annotation_id=annotation_509771&feature=iv&src_vid=V4V2bpZlqx8&v=BdrrJ7qd4HA    |
+|   2   |   Enigma Extra Footage - Numberphile    https://www.youtube.com/watch?annotation_id=annotation_509771&feature=iv&src_vid=V4V2bpZlqx8&v=BdrrJ7qd4HA    |
 |      |      |
 
  
@@ -178,6 +186,12 @@ http://ciphermachines.com/enigma
   
 
   https://plus.maths.org/content/exploring-enigma
+
+Cracking the NAZI Enigma Code Machine
+https://www.youtube.com/watch?v=Hb44bGY2KdU
+
+Alan Turing - Enigma And The Bombe, Part 1
+https://www.youtube.com/watch?v=RYbTeqRs5fA
 
 
 
