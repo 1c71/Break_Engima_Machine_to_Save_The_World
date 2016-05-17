@@ -12,7 +12,7 @@
 这里有一个 Python 写的英格玛模拟器,  
 而你要做的是写程序模拟 阿兰图灵(Alan Turing) 的 Bomba 机器,  
 <img src="img/bomba.jpg">  
-<img src="img/bomeba.jpg">  
+<img src="img/bomeba.jpg" width="50%">
 
 破解德国人用 Enigma 加密的密文  
 <img src="img/field.jpg">  
@@ -119,7 +119,7 @@ https://en.wikipedia.org/wiki/Enigma_machine
 | 序号 | 链接 |
 |------|------|
 |   1   |  http://red-badger.com/blog/2015/02/23/understanding-the-enigma-machine-with-30-lines-of-ruby-star-of-the-2014-film-the-imitation-game/    |
-|   2   |   Enigma Extra Footage - Numberphile    https://www.youtube.com/watch?annotation_id=annotation_509771&feature=iv&src_vid=V4V2bpZlqx8&v=BdrrJ7qd4HA    |
+|   2   |   Enigma Extra Footage - Numberphile  <br/>  https://www.youtube.com/watch?annotation_id=annotation_509771&feature=iv&src_vid=V4V2bpZlqx8&v=BdrrJ7qd4HA    |
 |      |      |
 
  
