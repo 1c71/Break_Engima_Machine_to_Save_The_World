@@ -81,20 +81,23 @@
 
 
 
-4 PlugBoard 有10组，一组2个字母，也就是20个字母之间的对应关系,    
+4 PlugBoard 有10组，一组2个字母，也就是20个字母之间有对应关系,    
 那么还有6个字母没有连线的字母怎么弄?    
 ```
     直接进 Rotor, 不经过变换
 ```
+证明:   
+Turing's Enigma Problem (Part 1) - Computerphile (18分钟59秒)   
+https://www.youtube.com/watch?v=d2NWPG2gB_A  
+讲清楚了如果插线板没插线, 那么字母不会变, 原样送到 rotor, 以及一般是插10组，而不是13组全部插满.  
 
-
-
+<br/>
 <br/>
 ### 2. 补充信息:
 1 密码本(codebook) 是一张纸就是一个月的
 ![Codebook](img/hires-wehrmachtkey-bgs.jpg)
 
-2 轮子不只是能转, 还能拿出来调换顺序(N多视频都有说这一点)
+2 轮子不只是能转, 还能拿出来调换顺序
 
 <br/>
 3 转轮不只是有数字的, 也有字母的  
