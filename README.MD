@@ -9,7 +9,7 @@
 
 ## 破解英格玛密码机 ( Crack Engima Machine to save the world )
 <img src="img/1.Enigma-machine.jpg" width="50%">  
-这里有一个 Python 写的英格玛模拟器,  
+这里有一个 Python 写的英格玛模拟器   
 而你要做的是写程序模拟 [阿兰图灵(Alan Turing)](https://en.wikipedia.org/wiki/Alan_Turing) 的 [Bombe 机器](https://en.wikipedia.org/wiki/Bombe),  
 <img src="img/bomba.jpg">  
 
@@ -27,7 +27,8 @@
 
 为了更形象的了解 Enigma 的使用方法和原理, 请看视频:  
 
-
+| 标题 | 链接 |
+|------|------|
 |  [數字狂 非官方繁體中文字幕]_Enigma Machine 數字狂   |  https://www.youtube.com/watch?v=J46hu4RMB5I      |
 |  [數字狂 非官方繁體中文字幕]_Engima 的缺陷 Flaw in the Enigma Code 數字狂   | https://www.youtube.com/watch?v=Sqpe5vZoKTo    |
 
@@ -116,105 +117,26 @@ https://en.wikipedia.org/wiki/Enigma_machine
   
 | 序号 | 链接 |
 |------|------|
-|   1   |  http://red-badger.com/blog/2015/02/23/understanding-the-enigma-machine-with-30-lines-of-ruby-star-of-the-2014-film-the-imitation-game/    |
-|   2   |   Enigma Extra Footage - Numberphile  <br/>  https://www.youtube.com/watch?annotation_id=annotation_509771&feature=iv&src_vid=V4V2bpZlqx8&v=BdrrJ7qd4HA    |
-|   3   |  一个 Python Enigma 模拟器的文档 <br/>  http://py-enigma.readthedocs.io/en/latest/guide.html       |
-|   4   |  How the Enigma was Set Up and Operated   <br/>  http://www.ellsbury.com/enigma3.htm      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |  
-
-  
-
-
-
-The Enigma and the Bombe   
-http://www.ellsbury.com/enigmabombe.htm   
-
-
-http://users.telenet.be/d.rijmenants/en/faq.htm   
-http://users.telenet.be/d.rijmenants/en/enigmaproc.htm   
-https://www.youtube.com/watch?v=1__P4b_JTC4    
-
-
-##### 艾倫・圖靈：生平與功績簡介（中文字幕） Alan Turing: biography and achievements
-https://www.youtube.com/watch?v=ANK8-poUDiI     
-
-
-##### WWII Enigma Machine: The Enigma Project  
-https://www.youtube.com/watch?v=elYw4Ve4F-I    
-
-
-
-Bletchley Park: The Enigma Machine     
-https://www.youtube.com/watch?v=faRfab9Yyk8   
-
-
-
-Imitation Game: how did the Enigma machine work?  (2分钟26秒)   
-https://www.youtube.com/watch?v=TYX691q2J2c    
-推荐理由: 这个视频里介绍了其他视频都跳过不讲的 Reflecter    
-
-
-
-Enigma - The True Story (6分49秒)(UnknownHistory - BitmapAxis)   
-https://www.youtube.com/watch?v=2OcC-8zUUEc   
-
-
-
-Lorenz: Hitler's "Unbreakable" Cipher Machine (11分钟42秒)(singingbanana)    
-https://www.youtube.com/watch?v=GBsfWSQVtYA    
-推荐理由: 这个不是讲 Enigma, 是讲 Lorenz    
-
-
-##### Turing's Enigma Problem (Part 1) - Computerphile (18分钟59秒)  
-https://www.youtube.com/watch?v=d2NWPG2gB_A  
-推荐理由:      
-1 插线板部分, 字母和数字的对应, 拍摄的很清晰     
-2 讲清楚了如果插线板没插线, 那么字母不会变, 原样送到 rotor, 以及一般是插10组，而不是13组全部插满.    
-
-##### Crypto Museum
-http://cryptomuseum.com/crypto/enigma/m4/index.htm
-推荐理由:  图片多
-
-http://ciphermachines.com/enigma
-  
-
-  https://plus.maths.org/content/exploring-enigma
-
-Cracking the NAZI Enigma Code Machine
-https://www.youtube.com/watch?v=Hb44bGY2KdU
-
-Alan Turing - Enigma And The Bombe, Part 1
-https://www.youtube.com/watch?v=RYbTeqRs5fA
-
+|  1  |  http://red-badger.com/blog/2015/02/23/understanding-the-enigma-machine-with-30-lines-of-ruby-star-of-the-2014-film-the-imitation-game/    |
+|  2  |   Enigma Extra Footage - Numberphile  <br/>  https://www.youtube.com/watch?annotation_id=annotation_509771&feature=iv&src_vid=V4V2bpZlqx8&v=BdrrJ7qd4HA    |
+|  3  |  一个 Python Enigma 模拟器的文档 <br/>  http://py-enigma.readthedocs.io/en/latest/guide.html       |
+|  4  |  How the Enigma was Set Up and Operated   <br/>  http://www.ellsbury.com/enigma3.htm      |
+|  5  |   The Enigma and the Bombe  <br/> http://www.ellsbury.com/enigmabombe.htm    |
+|  6  |   http://users.telenet.be/d.rijmenants/en/faq.htm    |
+|  7  |  http://users.telenet.be/d.rijmenants/en/enigmaproc.htm     |
+|  8  |   Enigma Demo(2分16秒)  <br/> https://www.youtube.com/watch?v=1__P4b_JTC4      |
+|  9  |   艾倫・圖靈：生平與功績簡介（中文字幕） Alan Turing: biography and achievements  <br/> https://www.youtube.com/watch?v=ANK8-poUDiI   |
+|  10 |   WWII Enigma Machine: The Enigma Project  <br/>https://www.youtube.com/watch?v=elYw4Ve4F-I     |
+|  11  |   Bletchley Park: The Enigma Machine  <br/> https://www.youtube.com/watch?v=faRfab9Yyk8      |
+|  12 |   Imitation Game: how did the Enigma machine work?  (2分钟26秒)<br/> https://www.youtube.com/watch?v=TYX691q2J2c  <br/>   推荐理由: 这个视频里介绍了其他视频都跳过不讲的 Reflecter  <br/>    |
+|  13  |   Enigma - The True Story (6分49秒)(UnknownHistory - BitmapAxis)  <br/> https://www.youtube.com/watch?v=2OcC-8zUUEc   |
+|  14  |   Lorenz: Hitler's "Unbreakable" Cipher Machine (11分钟42秒)(singingbanana)    <br/> https://www.youtube.com/watch?v=GBsfWSQVtYA <br/> 推荐理由: 这个不是讲 Enigma, 是讲 Lorenz      |
+|  15  |   Turing's Enigma Problem (Part 1) - Computerphile (18分钟59秒) <br/>https://www.youtube.com/watch?v=d2NWPG2gB_A  <br/> 推荐理由:      <br/> 1 插线板部分, 字母和数字的对应, 拍摄的很清晰      <br/> 2 讲清楚了如果插线板没插线, 那么字母不会变, 原样送到 rotor, 以及一般是插10组，而不是13组全部插满.     |
+|  16  |   Crypto Museum  <br/> http://cryptomuseum.com/crypto/enigma/m4/index.htm <br/>推荐理由:  图片多 |
+|  17  |  http://ciphermachines.com/enigma |
+|  18  |  https://plus.maths.org/content/exploring-enigma  |
+|  19  |   Cracking the NAZI Enigma Code Machine  <br/> https://www.youtube.com/watch?v=Hb44bGY2KdU   |
+|  20  |   Alan Turing - Enigma And The Bombe, Part 1 <br/> https://www.youtube.com/watch?v=RYbTeqRs5fA  |
 
 
 <br/> 
