@@ -30,50 +30,10 @@ You need the key settings for rotors, their order and ring settings, the start p
 
 
 
-3 图片里的最后一列，是什么？
-
-Kenngruppen: special text fragments that should be transmitted to identify the transmitter’s key settings to any receiver. This is also known as the message indicator.
-最后一列特殊信息会嵌入到最终发出的加密信息的一个固定区域里，
-用于唯一标示发送者的机器设定.
-当别人收到信息的时候，就根据固定格式，找到最后那一列的信息, 然后查表,
-来确定是昨天的信息还是刚刚发的, 或者是2天前的信息.
-然后根据那一天的设定来解码信息
-
-总结重点就是：当收到信息时，根据最后一列信息比对，从而得知信息是哪一天的信息，
-然后查表调整到对应设定，这样才能解密剩下的信息。
-
-为什么能收到昨天甚至是前天的信息？？？
-
-
-
-
-
-说白了就是 plugboard  rotor  reflexter 三个，里面都有26个字母一一对应的变换
-
-5个rotor里有不同的配线，26个字母的对应不一样，
-然后抽3个出来，以不同的顺序排，所以就有不同的结果了
-
-
-你会拿到英格玛模拟器和一大段密文，
-然后还有一小段密文，是100%对应的
-
-
-先设定好 engima，自己加密一段东西，
-然后才能试着去解密
-
-
-先了解了写出来再说，那么多废话干吗
-要写两个版本吗？中文 + 英文？
-
-
-你要在不知道密码 sheet 的情况下破解出答案
-
-
-
 ============================
 
 ## 破解英格玛密码机 ( Crack Engima Machine to save the world )
-![img/1.Enigma-machine.jpg](Image of a Enigma Machine)
+![Image of a Enigma Machine](img/1.Enigma-machine.jpg)
 这里有一个 Python 写的英格玛模拟器,
 而你要做的是 写一个程序模拟 阿兰图灵(Alan Turing) 的 Bomba 机器,
 破解德国人用 Enigma 加密的密文
@@ -120,7 +80,7 @@ https://www.youtube.com/watch?v=Sqpe5vZoKTo
 有一个部件叫做 Reflecter, 作用和轮子一样, 就是输入1个数字输出对应的数字
 意思就是从第3个轮子出来的数字会先进 Reflector, 然后变成另一个数字, 之后再进第3个轮子,
 然后走回去, 是这样运行的
-![img/Reflector.jpg](Image of a Reflector that belong to a Enigma Machine)
+![Image of a Reflector that belong to a Enigma Machine](img/Reflector.jpg)
 ```
 
 3. 按键是字母，轮子是数字，这之间的对应关系是什么？
@@ -144,13 +104,16 @@ Z 对应 26
 #### 补充信息:
 1 密码本(codebook) 是一张纸就是一个月的
 
--1 Engima 里，字母和数字的对应方式是 A1 B2 C3 这样到Z26
-0 有 Reflecter
+
+![Codebook](img/hires-wehrmachtkey-bgs.jpg)
+
+5 Engima 有其他型号的, 并不是视频里就是唯一的型号   
+
 
 1 轮子不只是能转, 还能拿出来调换顺序(N多视频都有说这一点)
 
 1 转轮不只是有数字的, 也有字母的
-![img/letter rotor.jpg](Letter on Rotor instead of Number)
+![Letter on Rotor instead of Number](img/letter rotor.jpg)
 
 2 转轮有的有4个(M4型号), 并不是所有型号都是3个   
 3 有其他国家觉得 Enigma 不错的, 了解之后改进了一下自己用   
@@ -187,7 +150,7 @@ https://www.youtube.com/watch?annotation_id=annotation_509771&feature=iv&src_vid
 http://py-enigma.readthedocs.io/en/latest/guide.html    
 这是一个 Python Enigma 模拟器的文档   
 
-3. How the Enigma was Set Up and Operated    
+How the Enigma was Set Up and Operated    
 http://www.ellsbury.com/enigma3.htm  
 
 The Enigma and the Bombe   
@@ -195,41 +158,45 @@ http://www.ellsbury.com/enigmabombe.htm
 
 
 http://users.telenet.be/d.rijmenants/en/faq.htm   
-   
 http://users.telenet.be/d.rijmenants/en/enigmaproc.htm   
-   
-https://www.youtube.com/watch?v=1__P4b_JTC4   
+https://www.youtube.com/watch?v=1__P4b_JTC4    
 
 
 <br/>
 ### 其他推荐
 
+
 艾倫・圖靈：生平與功績簡介（中文字幕） Alan Turing: biography and achievements    
 https://www.youtube.com/watch?v=ANK8-poUDiI     
+<br/>
 
 WWII Enigma Machine: The Enigma Project    
 https://www.youtube.com/watch?v=elYw4Ve4F-I    
 
+<br/>
 
 Bletchley Park: The Enigma Machine     
 https://www.youtube.com/watch?v=faRfab9Yyk8   
 
+<br/>
 
 Imitation Game: how did the Enigma machine work?  (2分钟26秒)   
 https://www.youtube.com/watch?v=TYX691q2J2c    
 推荐理由: 这个视频里介绍了其他视频都跳过不讲的 Reflecter    
 
+<br/>
 
 Enigma - The True Story (6分49秒)(UnknownHistory - BitmapAxis)   
 https://www.youtube.com/watch?v=2OcC-8zUUEc   
 
+<br/>
 
 Lorenz: Hitler's "Unbreakable" Cipher Machine (11分钟42秒)(singingbanana)    
 https://www.youtube.com/watch?v=GBsfWSQVtYA    
 推荐理由: 这个不是讲 Enigma, 是讲 Lorenz    
 
      
-
+<br/>
 Turing's Enigma Problem (Part 1) - Computerphile (18分钟59秒)  
 https://www.youtube.com/watch?v=d2NWPG2gB_A  
 推荐理由:      
@@ -242,9 +209,32 @@ https://www.youtube.com/watch?v=d2NWPG2gB_A
   
 <br/> 
 ### 最后  
-    欢迎你写其他语言的 Enigma 模拟器 或者是 Bomba 然后提交到这个库(fork&pull request)  
+欢迎写其他语言的 Enigma 模拟器 或是 Bomba 然后提交到这个库(fork&pull request)  
 
-    (记得写代码注释, 还有文件开头的5,6行写上你的名字和写这份代码的时间, 可能需要的依赖库以及版本之类的,  
-        以及其他你觉得需要宣传的东西)  
+(记得写代码注释, 
+文件开头 5,6 行写上你的名字和写这份代码的时间, 
+可能需要的依赖库以及版本之类的,  
+以及其他你觉得需要宣传的东西)  
 
-    或者你也可以写了之后放在自己的 Github 公开库, 开个 issue 告诉我, 然后我在这份 README 里面写上你 Github 库的链接  
+或者你也可以写了之后放在自己的 Github 公开库, 开个 issue 告诉我,   
+然后我在这份 README 里面写上你 Github 库的链接  
+
+
+
+
+
+
+
+3 图片里的最后一列，是什么？
+
+Kenngruppen: special text fragments that should be transmitted to identify the transmitter’s key settings to any receiver. This is also known as the message indicator.
+最后一列特殊信息会嵌入到最终发出的加密信息的一个固定区域里，
+用于唯一标示发送者的机器设定.
+当别人收到信息的时候，就根据固定格式，找到最后那一列的信息, 然后查表,
+来确定是昨天的信息还是刚刚发的, 或者是2天前的信息.
+然后根据那一天的设定来解码信息
+
+总结重点就是：当收到信息时，根据最后一列信息比对，从而得知信息是哪一天的信息，
+然后查表调整到对应设定，这样才能解密剩下的信息。
+
+为什么能收到昨天甚至是前天的信息？？？
