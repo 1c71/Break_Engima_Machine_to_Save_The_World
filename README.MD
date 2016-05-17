@@ -1,44 +1,8 @@
-
-You need the key settings for rotors, their order and ring settings, the start position of the rotors,
-https://en.wikipedia.org/wiki/Enigma_rotor_details
-
-
-
-暂时还不知道的：
-
-
-        1 那3个轮子，拿出来轮子是可以转动的，不是死的
-        怎么转？？为啥要转？
-        2 那 5 个轮子是不是排线不一样，我觉得是
-
-
-3个轮子的内部可不可以转？（不是外部有个窗口的那种转动）
- ring setting / key settings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-============================
-
 ## 破解英格玛密码机 ( Crack Engima Machine to save the world )
 <img src="img/1.Enigma-machine.jpg" width="218">  
 这里有一个 Python 写的英格玛模拟器,  
 而你要做的是写程序模拟 阿兰图灵(Alan Turing) 的 Bomba 机器,  
 破解德国人用 Enigma 加密的密文  
-
-
 
 <br/>
 ### 1. 简单介绍 (包括这段, 共x段)  
@@ -108,22 +72,23 @@ Z 对应 26
 ![Codebook](img/hires-wehrmachtkey-bgs.jpg)
 
 2 Engima 有其他型号的, 并不是视频里就是唯一的型号   
-
+举例： 4个轮子的
 
 3 轮子不只是能转, 还能拿出来调换顺序(N多视频都有说这一点)
 
 4 转轮不只是有数字的, 也有字母的  
 <img src="img/letter rotor.jpg">  
 
-5 所有型号都是3个转轮, 有的有4个(M4型号), 有的有8个(海军用的这个)    
+
+5 Engima 有其他型号的, 并不是视频里就是唯一的型号      
+<img src="img/enigma differnt mode.png">  
+
+6 并不是所有型号都是3个转轮, 有的有4个(M4型号), 有的有8个(海军用的这个)    
 https://en.wikipedia.org/wiki/Enigma_rotor_details  
-https://en.wikipedia.org/wiki/Enigma_machine  
+https://en.wikipedia.org/wiki/Enigma_machine   
+<img src="img/465px-Enigma-8-rotor-cropped.jpg">
+<img src="img/enigma-8-rotors-400px.jpg">
 
-6 有其他国家觉得 Enigma 不错的, 了解之后改进了一下自己用     
-
-7 Engima 有其他型号的, 并不是视频里就是唯一的型号      
-
-视频里的是数字轮子, 其实还有字母轮子, 然后因为不同的型号, 有不同的密码表      
 
 
 <br/>
@@ -159,11 +124,11 @@ http://users.telenet.be/d.rijmenants/en/enigmaproc.htm
 https://www.youtube.com/watch?v=1__P4b_JTC4    
 
 
-##### 艾倫・圖靈：生平與功績簡介（中文字幕） Alan Turing: biography and achievements    
+##### 艾倫・圖靈：生平與功績簡介（中文字幕） Alan Turing: biography and achievements
 https://www.youtube.com/watch?v=ANK8-poUDiI     
 
 
-WWII Enigma Machine: The Enigma Project    
+##### WWII Enigma Machine: The Enigma Project  
 https://www.youtube.com/watch?v=elYw4Ve4F-I    
 
 
@@ -189,14 +154,15 @@ https://www.youtube.com/watch?v=GBsfWSQVtYA
 推荐理由: 这个不是讲 Enigma, 是讲 Lorenz    
 
 
-Turing's Enigma Problem (Part 1) - Computerphile (18分钟59秒)  
+##### Turing's Enigma Problem (Part 1) - Computerphile (18分钟59秒)  
 https://www.youtube.com/watch?v=d2NWPG2gB_A  
 推荐理由:      
 1 插线板部分, 字母和数字的对应, 拍摄的很清晰     
 2 讲清楚了如果插线板没插线, 那么字母不会变, 原样送到 rotor, 以及一般是插10组，而不是13组全部插满.    
 
-
-
+##### Crypto Museum
+http://cryptomuseum.com/crypto/enigma/m4/index.htm
+推荐理由:  图片多
 
   
 <br/> 
@@ -212,8 +178,6 @@ https://www.youtube.com/watch?v=d2NWPG2gB_A
 然后我在这份 README 里面写上你 Github 库的链接  
 
 <br/>
-<br/>
-
 
 
 <!-- 
