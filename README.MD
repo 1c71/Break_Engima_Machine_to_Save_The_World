@@ -1,6 +1,6 @@
 
 You need the key settings for rotors, their order and ring settings, the start position of the rotors,
-
+https://en.wikipedia.org/wiki/Enigma_rotor_details
 
 
 
@@ -33,10 +33,10 @@ You need the key settings for rotors, their order and ring settings, the start p
 ============================
 
 ## 破解英格玛密码机 ( Crack Engima Machine to save the world )
-<img src="img/1.Enigma-machine.jpg" width="218">
-这里有一个 Python 写的英格玛模拟器,
-而你要做的是 写一个程序模拟 阿兰图灵(Alan Turing) 的 Bomba 机器,
-破解德国人用 Enigma 加密的密文
+<img src="img/1.Enigma-machine.jpg" width="218">  
+这里有一个 Python 写的英格玛模拟器,  
+而你要做的是写程序模拟 阿兰图灵(Alan Turing) 的 Bomba 机器,  
+破解德国人用 Enigma 加密的密文  
 
 
 
@@ -101,24 +101,29 @@ Z 对应 26
 
 
 <br/>
-#### 补充信息:
+#### 2. 补充信息:
 1 密码本(codebook) 是一张纸就是一个月的
 
 
 ![Codebook](img/hires-wehrmachtkey-bgs.jpg)
 
-5 Engima 有其他型号的, 并不是视频里就是唯一的型号   
+2 Engima 有其他型号的, 并不是视频里就是唯一的型号   
 
 
-1 轮子不只是能转, 还能拿出来调换顺序(N多视频都有说这一点)
+3 轮子不只是能转, 还能拿出来调换顺序(N多视频都有说这一点)
 
-1 转轮不只是有数字的, 也有字母的
-![Letter on Rotor instead of Number](img/letter rotor.jpg)
+4 转轮不只是有数字的, 也有字母的  
+<img src="img/letter rotor.jpg">  
 
-2 转轮有的有4个(M4型号), 并不是所有型号都是3个   
-3 有其他国家觉得 Enigma 不错的, 了解之后改进了一下自己用   
-5 Engima 有其他型号的, 并不是视频里就是唯一的型号   
-视频里的是数字轮子, 其实还有字母轮子, 然后因为不同的型号, 有不同的密码表   
+5 所有型号都是3个转轮, 有的有4个(M4型号), 有的有8个(海军用的这个)    
+https://en.wikipedia.org/wiki/Enigma_rotor_details  
+https://en.wikipedia.org/wiki/Enigma_machine  
+
+6 有其他国家觉得 Enigma 不错的, 了解之后改进了一下自己用     
+
+7 Engima 有其他型号的, 并不是视频里就是唯一的型号      
+
+视频里的是数字轮子, 其实还有字母轮子, 然后因为不同的型号, 有不同的密码表      
 
 
 <br/>
@@ -131,22 +136,14 @@ Z 对应 26
 
 
 <br/>
-### 补充视频
-补充视频存在的意义是:   
-光看前2个视频只能了解一些大概, 还有几个问题没解决，如果你想要完全理解，   
-那么   
-
+### 资料来源
+  
 http://red-badger.com/blog/2015/02/23/understanding-the-enigma-machine-with-30-lines-of-ruby-star-of-the-2014-film-the-imitation-game/   
 
 
 Enigma Extra Footage - Numberphile    
 https://www.youtube.com/watch?annotation_id=annotation_509771&feature=iv&src_vid=V4V2bpZlqx8&v=BdrrJ7qd4HA    
 
-
-
-
-<br/>
-##### 资料来源   
 http://py-enigma.readthedocs.io/en/latest/guide.html    
 这是一个 Python Enigma 模拟器的文档   
 
@@ -162,41 +159,36 @@ http://users.telenet.be/d.rijmenants/en/enigmaproc.htm
 https://www.youtube.com/watch?v=1__P4b_JTC4    
 
 
-<br/>
-### 其他推荐
-
-
-艾倫・圖靈：生平與功績簡介（中文字幕） Alan Turing: biography and achievements    
+##### 艾倫・圖靈：生平與功績簡介（中文字幕） Alan Turing: biography and achievements    
 https://www.youtube.com/watch?v=ANK8-poUDiI     
-<br/>
+
 
 WWII Enigma Machine: The Enigma Project    
 https://www.youtube.com/watch?v=elYw4Ve4F-I    
 
-<br/>
+
 
 Bletchley Park: The Enigma Machine     
 https://www.youtube.com/watch?v=faRfab9Yyk8   
 
-<br/>
+
 
 Imitation Game: how did the Enigma machine work?  (2分钟26秒)   
 https://www.youtube.com/watch?v=TYX691q2J2c    
 推荐理由: 这个视频里介绍了其他视频都跳过不讲的 Reflecter    
 
-<br/>
+
 
 Enigma - The True Story (6分49秒)(UnknownHistory - BitmapAxis)   
 https://www.youtube.com/watch?v=2OcC-8zUUEc   
 
-<br/>
+
 
 Lorenz: Hitler's "Unbreakable" Cipher Machine (11分钟42秒)(singingbanana)    
 https://www.youtube.com/watch?v=GBsfWSQVtYA    
 推荐理由: 这个不是讲 Enigma, 是讲 Lorenz    
 
-     
-<br/>
+
 Turing's Enigma Problem (Part 1) - Computerphile (18分钟59秒)  
 https://www.youtube.com/watch?v=d2NWPG2gB_A  
 推荐理由:      
@@ -219,12 +211,12 @@ https://www.youtube.com/watch?v=d2NWPG2gB_A
 或者你也可以写了之后放在自己的 Github 公开库, 开个 issue 告诉我,   
 然后我在这份 README 里面写上你 Github 库的链接  
 
+<br/>
+<br/>
 
 
 
-
-
-
+<!-- 
 3 图片里的最后一列，是什么？
 
 Kenngruppen: special text fragments that should be transmitted to identify the transmitter’s key settings to any receiver. This is also known as the message indicator.
@@ -238,3 +230,7 @@ Kenngruppen: special text fragments that should be transmitted to identify the t
 然后查表调整到对应设定，这样才能解密剩下的信息。
 
 为什么能收到昨天甚至是前天的信息？？？
+
+
+
+ -->
