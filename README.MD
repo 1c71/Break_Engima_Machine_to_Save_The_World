@@ -10,9 +10,8 @@
 ## 破解英格玛密码机 ( Crack Engima Machine to save the world )
 <img src="img/1.Enigma-machine.jpg" width="50%">  
 这里有一个 Python 写的英格玛模拟器,  
-而你要做的是写程序模拟 阿兰图灵(Alan Turing) 的 Bomba 机器,  
+而你要做的是写程序模拟 [阿兰图灵(Alan Turing)](https://en.wikipedia.org/wiki/Alan_Turing) 的 [Bombe 机器](https://en.wikipedia.org/wiki/Bombe),  
 <img src="img/bomba.jpg">  
-<img src="img/bomeba.jpg" width="50%">
 
 破解德国人用 Enigma 加密的密文  
 <img src="img/field.jpg">  
@@ -28,11 +27,10 @@
 
 为了更形象的了解 Enigma 的使用方法和原理, 请看视频:  
 
-1. [數字狂 非官方繁體中文字幕]_Enigma Machine 數字狂    
-https://www.youtube.com/watch?v=J46hu4RMB5I     
 
-2. [數字狂 非官方繁體中文字幕]_Engima 的缺陷 Flaw in the Enigma Code 數字狂   
-https://www.youtube.com/watch?v=Sqpe5vZoKTo   
+|  [數字狂 非官方繁體中文字幕]_Enigma Machine 數字狂   |  https://www.youtube.com/watch?v=J46hu4RMB5I      |
+|  [數字狂 非官方繁體中文字幕]_Engima 的缺陷 Flaw in the Enigma Code 數字狂   | https://www.youtube.com/watch?v=Sqpe5vZoKTo    |
+
 
 注: 只看完这2个视频你是没法写代码实现 Enigma 的，有些细节视频里没说.    
 比如   
@@ -120,18 +118,42 @@ https://en.wikipedia.org/wiki/Enigma_machine
 |------|------|
 |   1   |  http://red-badger.com/blog/2015/02/23/understanding-the-enigma-machine-with-30-lines-of-ruby-star-of-the-2014-film-the-imitation-game/    |
 |   2   |   Enigma Extra Footage - Numberphile  <br/>  https://www.youtube.com/watch?annotation_id=annotation_509771&feature=iv&src_vid=V4V2bpZlqx8&v=BdrrJ7qd4HA    |
+|   3   |  一个 Python Enigma 模拟器的文档 <br/>  http://py-enigma.readthedocs.io/en/latest/guide.html       |
+|   4   |  How the Enigma was Set Up and Operated   <br/>  http://www.ellsbury.com/enigma3.htm      |
 |      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |
+|      |      |  
 
- 
+  
 
 
-   
-
-http://py-enigma.readthedocs.io/en/latest/guide.html    
-这是一个 Python Enigma 模拟器的文档   
-
-How the Enigma was Set Up and Operated    
-http://www.ellsbury.com/enigma3.htm  
 
 The Enigma and the Bombe   
 http://www.ellsbury.com/enigmabombe.htm   
