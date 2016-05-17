@@ -1,8 +1,15 @@
 ## 破解英格玛密码机 ( Crack Engima Machine to save the world )
-<img src="img/1.Enigma-machine.jpg" width="218">  
+<img src="img/1.Enigma-machine.jpg" width="320">  
 这里有一个 Python 写的英格玛模拟器,  
 而你要做的是写程序模拟 阿兰图灵(Alan Turing) 的 Bomba 机器,  
+<img src="img/bomba.jpg">  
+<img src="img/bomeba.jpg">  
+
 破解德国人用 Enigma 加密的密文  
+<img src="img/field.jpg">  
+<img src="img/truck.jpg">  
+
+
 
 <br/>
 ### 1. 简单介绍 (包括这段, 共x段)  
@@ -65,25 +72,22 @@ Z 对应 26
 
 
 <br/>
-#### 2. 补充信息:
+### 2. 补充信息:
 1 密码本(codebook) 是一张纸就是一个月的
-
-
 ![Codebook](img/hires-wehrmachtkey-bgs.jpg)
 
-2 Engima 有其他型号的, 并不是视频里就是唯一的型号   
-举例： 4个轮子的
+2 轮子不只是能转, 还能拿出来调换顺序(N多视频都有说这一点)
 
-3 轮子不只是能转, 还能拿出来调换顺序(N多视频都有说这一点)
-
-4 转轮不只是有数字的, 也有字母的  
+<br/>
+3 转轮不只是有数字的, 也有字母的  
 <img src="img/letter rotor.jpg">  
 
-
-5 Engima 有其他型号的, 并不是视频里就是唯一的型号      
+<br/>
+4 Engima 有其他型号的, 并不是视频里就是唯一的型号      
 <img src="img/enigma differnt mode.png">  
 
-6 并不是所有型号都是3个转轮, 有的有4个(M4型号), 有的有8个(海军用的这个)    
+<br/>
+5 并不是所有型号都是3个转轮, 有的有4个(M4型号), 有的有8个(海军用的这个)    
 https://en.wikipedia.org/wiki/Enigma_rotor_details  
 https://en.wikipedia.org/wiki/Enigma_machine   
 <img src="img/465px-Enigma-8-rotor-cropped.jpg">
@@ -103,11 +107,17 @@ https://en.wikipedia.org/wiki/Enigma_machine
 <br/>
 ### 资料来源
   
-http://red-badger.com/blog/2015/02/23/understanding-the-enigma-machine-with-30-lines-of-ruby-star-of-the-2014-film-the-imitation-game/   
+| 序号 | 链接 |
+|------|------|
+|   1   |  http://red-badger.com/blog/2015/02/23/understanding-the-enigma-machine-with-30-lines-of-ruby-star-of-the-2014-film-the-imitation-game/    |
+|   2   |   Enigma Extra Footage - Numberphile    
+https://www.youtube.com/watch?annotation_id=annotation_509771&feature=iv&src_vid=V4V2bpZlqx8&v=BdrrJ7qd4HA    |
+|      |      |
+
+ 
 
 
-Enigma Extra Footage - Numberphile    
-https://www.youtube.com/watch?annotation_id=annotation_509771&feature=iv&src_vid=V4V2bpZlqx8&v=BdrrJ7qd4HA    
+   
 
 http://py-enigma.readthedocs.io/en/latest/guide.html    
 这是一个 Python Enigma 模拟器的文档   
@@ -164,7 +174,13 @@ https://www.youtube.com/watch?v=d2NWPG2gB_A
 http://cryptomuseum.com/crypto/enigma/m4/index.htm
 推荐理由:  图片多
 
+http://ciphermachines.com/enigma
   
+
+  https://plus.maths.org/content/exploring-enigma
+
+
+
 <br/> 
 ### 最后  
 欢迎写其他语言的 Enigma 模拟器 或是 Bomba 然后提交到这个库(fork&pull request)  
