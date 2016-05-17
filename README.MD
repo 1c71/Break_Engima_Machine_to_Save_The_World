@@ -33,7 +33,7 @@ You need the key settings for rotors, their order and ring settings, the start p
 ============================
 
 ## 破解英格玛密码机 ( Crack Engima Machine to save the world )
-![Image of a Enigma Machine](img/1.Enigma-machine.jpg)
+![Image of a Enigma Machine](img/1.Enigma-machine.jpg =300)
 这里有一个 Python 写的英格玛模拟器,
 而你要做的是 写一个程序模拟 阿兰图灵(Alan Turing) 的 Bomba 机器,
 破解德国人用 Enigma 加密的密文
