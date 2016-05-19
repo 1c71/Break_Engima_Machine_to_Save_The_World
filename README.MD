@@ -7,12 +7,18 @@
     解决了这个再说
  -->
 
+ TODO: 图片全部加上来源和时间和场景?
+
 ## 破解英格玛密码机 ( Crack Engima Machine to save the world )
 <img src="img/1.Enigma-machine.jpg" width="50%">  
 这里有一个 Python 写的英格玛模拟器   
 而你要做的是写程序模拟 [阿兰图灵(Alan Turing)](https://en.wikipedia.org/wiki/Alan_Turing) 的 [Bombe 机器](https://en.wikipedia.org/wiki/Bombe),  
 <img src="img/Turing_Plaque.jpg" width="70%">    
 <img src="img/bomba.jpg">  
+免责声明: 波兰人也做了很多努力, 这里不是将功劳全部推给图灵一个人  
+1932 年波兰人开始试着破解 Enigma, 后来当德国人入侵波兰之后  波兰把他们的工作给了法国和英国人  
+波兰不但是破解 Enigma 的先驱尝试者, 而且使得其他人相信 Engima 不是不可破解的    
+(资料来源:  http://users.telenet.be/d.rijmenants/en/enigma.htm   [Breaking the code] Section)    
 
 破解德国人用 Enigma 加密的密文  
 <img src="img/field.jpg">  
@@ -23,7 +29,10 @@
 <br/>
 ### 1. 简单介绍 
 英格玛密码机 (Engima Machine) 是德国二战期间用的机器  
-作用是加密信息, 然后把加密后的信息通过无线电发出去, 这样只有友军才知道是什么意思.  
+作用是加密信息, 然后把加密后的信息通过无线电发出去, 这样只有友军才知道是什么意思.    
+整场二战德国人都不知道他们的 Enigma 加密被破解了     
+(原句: The large scale breaking of German communications was one of the best kept secret of the Second World War. German armed forces kept on using Enigma during the entire war without any suspicion)  
+(资料来源:  http://users.telenet.be/d.rijmenants/en/enigma.htm  [Turning the tide] Section 最后一段)  
 
 为了更形象的了解 Enigma 的使用方法和原理, 请看视频:  
 
@@ -126,13 +135,12 @@ https://en.wikipedia.org/wiki/Enigma_machine
 
 
 
-<br/>
-### 玩法介绍
-
-
 
 <br/>
 ### 任务
+暂时空
+
+
 
 
 <br/>
@@ -181,7 +189,7 @@ It consisted of the Heer (army), the Kriegsmarine (navy) and the Luftwaffe(air f
 <br/> 
 ### 最后  
 欢迎写其他语言的 Enigma 模拟器 或是 Bomba 然后提交到这个库(fork&pull request)  
-
+(注意 Enigma 有很多型号, 你得自己选一个型号写, 如果写兼容所有型号的会很花时间)
 (记得写代码注释, 
 文件开头 5,6 行写上你的名字和写这份代码的时间, 
 可能需要的依赖库以及版本之类的,  
