@@ -11,6 +11,7 @@
 <img src="img/1.Enigma-machine.jpg" width="50%">  
 这里有一个 Python 写的英格玛模拟器   
 而你要做的是写程序模拟 [阿兰图灵(Alan Turing)](https://en.wikipedia.org/wiki/Alan_Turing) 的 [Bombe 机器](https://en.wikipedia.org/wiki/Bombe),  
+<img src="img/Turing_Plaque.jpg">    
 <img src="img/bomba.jpg">  
 
 破解德国人用 Enigma 加密的密文  
@@ -44,6 +45,7 @@
     因为每个轮子内部的连线不同, 比如轮子 V(5号轮子) 当输入 3 的时候可能输出 17
     轮子 I (1号轮子) 输入 3 的时候可能输出 21
     重点是内部的对应关系不同
+
     注意在密码本上, 5个转轮的编号是用罗马数字表示的
     比如 I VI V 这样,
     I = 1
@@ -54,6 +56,12 @@
     当你在密码本的 Wazlzenlage 这一列看到 V IV I
     意思是把5号轮子放左边， 4号放中间，1号放右边
 ```
+<img src="img/6204sr.jpg">   
+<img src="img/6204sv.jpg">    
+<img src="img/NYR_10890_0006.jpg">   
+
+
+
 
 2  字母怎么经过 3 个轮子然后又绕回来, 再次经过 3 个轮子？具体怎么弄的？  
 比如到了第3个轮子，数字是37，然后视频说又回去  
