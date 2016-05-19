@@ -11,7 +11,7 @@
 <img src="img/1.Enigma-machine.jpg" width="50%">  
 这里有一个 Python 写的英格玛模拟器   
 而你要做的是写程序模拟 [阿兰图灵(Alan Turing)](https://en.wikipedia.org/wiki/Alan_Turing) 的 [Bombe 机器](https://en.wikipedia.org/wiki/Bombe),  
-<img src="img/Turing_Plaque.jpg">    
+<img src="img/Turing_Plaque.jpg" width="70%">    
 <img src="img/bomba.jpg">  
 
 破解德国人用 Enigma 加密的密文  
@@ -56,7 +56,9 @@
     当你在密码本的 Wazlzenlage 这一列看到 V IV I
     意思是把5号轮子放左边， 4号放中间，1号放右边
 ```
+看下图的 I, II, III, IV, V  
 <img src="img/6204sr.jpg">   
+注意轮子有两面, 下图是翻到了另外一面所以没有罗马数字编号  
 <img src="img/6204sv.jpg">    
 <img src="img/NYR_10890_0006.jpg">   
 
@@ -143,7 +145,7 @@ https://en.wikipedia.org/wiki/Enigma_machine
 |  3  |  一个 Python Enigma 模拟器的文档 <br/>  http://py-enigma.readthedocs.io/en/latest/guide.html       |
 |  4  |  How the Enigma was Set Up and Operated   <br/>  http://www.ellsbury.com/enigma3.htm      |
 |  5  |   The Enigma and the Bombe  <br/> http://www.ellsbury.com/enigmabombe.htm    |
-|  6  |   http://users.telenet.be/d.rijmenants/en/faq.htm    |
+|  6  |  这里有很多很多相关资料 <br/> http://users.telenet.be/d.rijmenants/en/faq.htm    |
 |  7  |  http://users.telenet.be/d.rijmenants/en/enigmaproc.htm     |
 |  8  |   Enigma Demo(2分16秒)  <br/> https://www.youtube.com/watch?v=1__P4b_JTC4      |
 |  9  |   艾倫・圖靈：生平與功績簡介（中文字幕） Alan Turing: biography and achievements  <br/> https://www.youtube.com/watch?v=ANK8-poUDiI   |
@@ -158,6 +160,22 @@ https://en.wikipedia.org/wiki/Enigma_machine
 |  18  |  https://plus.maths.org/content/exploring-enigma  |
 |  19  |   Cracking the NAZI Enigma Code Machine  <br/> https://www.youtube.com/watch?v=Hb44bGY2KdU   |
 |  20  |   Alan Turing - Enigma And The Bombe, Part 1 <br/> https://www.youtube.com/watch?v=RYbTeqRs5fA  |
+
+
+<br/> 
+### 单词  
+如果你感兴趣并且去查相关资料, 那么你可能会看到这几个词     
+__Wehrmacht, Luftwaffe and Kriegsmarine__    
+
+https://en.wikipedia.org/wiki/Wehrmacht  
+根据维基百科   
+
+The Wehrmacht  was the unified armed forcesof Nazi Germany from 1935 to 1946.  
+It consisted of the Heer (army), the Kriegsmarine (navy) and the Luftwaffe(air force).   
+简单说就是 __Wehrmacht 是德国军队的总称__     
+而__陆军是 Heer__, __海军是 Kriegsmarine__, __空军是 Luftwaffe__    
+
+
 
 
 <br/> 
