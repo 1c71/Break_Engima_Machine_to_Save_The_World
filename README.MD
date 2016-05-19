@@ -15,10 +15,10 @@
 而你要做的是写程序模拟 [阿兰图灵(Alan Turing)](https://en.wikipedia.org/wiki/Alan_Turing) 的 [Bombe 机器](https://en.wikipedia.org/wiki/Bombe),  
 <img src="img/Turing_Plaque.jpg" width="70%">    
 <img src="img/bomba.jpg">  
-免责声明: 波兰人也做了很多努力, 这里不是将功劳全部推给图灵一个人  
-1932 年波兰人开始试着破解 Enigma, 后来当德国人入侵波兰之后  波兰把他们的工作给了法国和英国人  
-波兰不但是破解 Enigma 的先驱尝试者, 而且使得其他人相信 Engima 不是不可破解的    
-(资料来源:  http://users.telenet.be/d.rijmenants/en/enigma.htm   [Breaking the code] Section)    
+> 免责声明: 波兰人也做了很多努力, 这里不是将功劳全部推给图灵一个人  
+> 1932 年波兰人开始试着破解 Enigma, 后来当德国人入侵波兰之后  波兰把他们的工作给了法国和英国人  
+> 波兰不但是破解 Enigma 的先驱尝试者, 而且使得其他人相信 Engima 不是不可破解的    
+> (资料来源:  http://users.telenet.be/d.rijmenants/en/enigma.htm   [Breaking the code] Section)    
 
 破解德国人用 Enigma 加密的密文  
 <img src="img/field.jpg">  
@@ -30,9 +30,9 @@
 ### 1. 简单介绍 
 英格玛密码机 (Engima Machine) 是德国二战期间用的机器  
 作用是加密信息, 然后把加密后的信息通过无线电发出去, 这样只有友军才知道是什么意思.    
-整场二战德国人都不知道他们的 Enigma 加密被破解了     
-(原句: The large scale breaking of German communications was one of the best kept secret of the Second World War. German armed forces kept on using Enigma during the entire war without any suspicion)  
-(资料来源:  http://users.telenet.be/d.rijmenants/en/enigma.htm  [Turning the tide] Section 最后一段)  
+> 整场二战德国人都不知道他们的 Enigma 加密被破解了     
+> (原句: The large scale breaking of German communications was one of the best kept secret of the Second World War. German armed forces kept on using Enigma during the entire war without any suspicion)  
+> (资料来源:  http://users.telenet.be/d.rijmenants/en/enigma.htm  [Turning the tide] Section 最后一段)  
 
 为了更形象的了解 Enigma 的使用方法和原理, 请看视频:  
 
