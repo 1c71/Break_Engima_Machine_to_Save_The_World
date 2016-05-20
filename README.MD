@@ -1,7 +1,7 @@
 ## [废弃] 任务部分无法进行, 不过这里对于 Enigma 的介绍还是有用的  
-__废弃是什么意思?__
-原本的计划是我自己写一个简单的 Enigma 模拟器(M3型号，只有3个轮子),   
-或者网上找一个可编程的(看到py-enigma好像不错, 这个是 Python 实现的).     
+__废弃是什么意思?__  
+原本的计划是我自己写一个简单的 Enigma 模拟器 (M3型号，只有3个轮子)   
+或者网上找一个可编程的 (看到py-enigma好像不错, 这个是 Python 实现的).     
 
 然后网上找一些真实的战时 Enigma 加密信息，然后写个 Bomba 来破解。  
 __然后把这些东西做成任务形式，就像玩游戏一样, 然后其他程序员就可以看这些任务来用自己喜欢的语言写 Bomba__   
@@ -13,10 +13,11 @@ __所以原先的计划是把这些东西写好然后其他程序员可以来玩
 然后以此的基础上去配置 Bomba 然后去跑破解  
 __我没法找到这么一段明文, 网上没人这么弄__  
 网上其他人的破解挑战, 比如 http://users.telenet.be/d.rijmenants/en/challenge.htm  
-都是给你一段信息，然后让你用 Enigma 去破, 你根据线索去配置 Enigma 然后输入密文, 
-得到德文, 然后翻译成英文来理解  都是这种形式   
-所以这个计划只能取消了    
-__ 不过下面对于 Enigma 的介绍还是很详细的, 看下面这些可以节省你很多找资料的时间, 如果你对 Enigma 感兴趣的话__ 
+都是给你一段信息，然后让你用 Enigma 去破, 你根据线索去配置 Enigma 然后输入密文,    
+得到德文, 然后翻译成英文来理解  都是这种形式     
+所以这个计划只能取消了      
+__不过下面对于 Enigma 的介绍还是很详细的, 看下面这些可以节省你很多找资料的时间, 如果你对 Enigma 感兴趣的话__   
+__下面都是原先写的, 后来发现行不通也没改__
 
 <br/>
 ## 破解英格玛密码机 ( Crack Engima Machine to save the world )
@@ -193,7 +194,7 @@ It consisted of the Heer (army), the Kriegsmarine (navy) and the Luftwaffe(air f
 
 
 
-
+<!-- 
 <br/> 
 ### 最后  
 欢迎写其他语言的 Enigma 模拟器 或是 Bomba 然后提交到这个库 (fork & pull request)  
@@ -208,4 +209,4 @@ It consisted of the Heer (army), the Kriegsmarine (navy) and the Luftwaffe(air f
 或者你也可以写了之后放在自己的 Github 公开库, 开个 issue 告诉我,     
 然后我在这份 README 里面写上你 Github 库的链接  
 
-<br/>
+ -->
