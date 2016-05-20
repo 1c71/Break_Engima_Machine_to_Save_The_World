@@ -1,19 +1,9 @@
-<!-- 
-    轮子本身可以转
-    Cracking the NAZI Enigma Code Machine
-    https://www.youtube.com/watch?v=Hb44bGY2KdU
-
-    那么什么时候需要转???
-    解决了这个再说
- -->
-
- TODO: 图片全部加上来源和时间和场景?
-
+## [废弃] 任务部分无法进行, 不过这里对于 Enigma 的介绍还是有用的  
 ## 破解英格玛密码机 ( Crack Engima Machine to save the world )
 <img src="img/1.Enigma-machine.jpg" width="50%">  
 这里有一个 Python 写的英格玛模拟器   
 而你要做的是写程序模拟 [阿兰图灵(Alan Turing)](https://en.wikipedia.org/wiki/Alan_Turing) 的 [Bombe 机器](https://en.wikipedia.org/wiki/Bombe),  
-<img src="img/Turing_Plaque.jpg" width="70%">    
+<img src="img/Turing_Plaque.jpg" width="50%">    
 <img src="img/bomba.jpg">  
 > 免责声明: 波兰人也做了很多努力, 这里不是将功劳全部推给图灵一个人  
 > 1932 年波兰人开始试着破解 Enigma, 后来当德国人入侵波兰之后  波兰把他们的工作给了法国和英国人  
@@ -40,16 +30,19 @@
 |------|------|
 |  [數字狂 非官方繁體中文字幕]_Enigma Machine 數字狂   |  https://www.youtube.com/watch?v=J46hu4RMB5I      |
 |  [數字狂 非官方繁體中文字幕]_Engima 的缺陷 Flaw in the Enigma Code 數字狂   | https://www.youtube.com/watch?v=Sqpe5vZoKTo    |
+|  Turing's Enigma Problem (Part 1) - Computerphile    | https://www.youtube.com/watch?v=d2NWPG2gB_A    |
+|  Tackling Enigma (Turing's Enigma Problem Part 2) - Computerphile    | https://www.youtube.com/watch?v=kj_7Jc1mS9k    |
+|  Enigma, TypeX and Dad - Computerphile   | https://www.youtube.com/watch?v=jvKdOEHkrJc    |
 
 
 <br/>
 <br/>
 #### 注
 只看这 2 个视频你是没法写代码实现 Enigma 模拟器的,   
-有些细节视频里没说, 比如   
+有些细节视频里没说, 比如  
    
  
-1. 从 5 个转轮里抽 3 个是什么意思，为什么要抽 3 个？(第1集的06:00)   
+1 从 5 个转轮里抽 3 个是什么意思，为什么要抽 3 个？(第1集的06:00)   
 转轮上面不都是 01~26 吗？
 ```
     因为每个轮子内部的连线不同, 比如轮子 V(5号轮子) 当输入 3 的时候可能输出 17
@@ -75,7 +68,7 @@
 
 
 
-2.  字母怎么经过 3 个轮子然后又绕回来, 再次经过 3 个轮子？具体怎么弄的？  
+2  字母怎么经过 3 个轮子然后又绕回来, 再次经过 3 个轮子？具体怎么弄的？  
 比如到了第3个轮子，数字是37，然后视频说又回去  
 那不是回到第1个轮子的时候，数字和一开始进第1个轮子的时候一样了吗？
 ```
@@ -85,7 +78,7 @@
     ![Image of a Reflector that belong to a Enigma Machine](img/Reflector.jpg)
 ```
 
-3. 按键是字母，轮子是数字，这之间的对应关系是什么？  
+3 按键是字母，轮子是数字，这之间的对应关系是什么？  
 因为比如你按下了P，经过插线板变成了M，下一步就应该去轮子那边了，但是M这个数字到了轮子那边怎么办？  
 ```
     A 对应 1
@@ -101,7 +94,7 @@
 
 
 
-4. PlugBoard 有10组，一组2个字母，也就是20个字母之间有对应关系,    
+4 PlugBoard 有10组，一组2个字母，也就是20个字母之间有对应关系,    
 那么还有6个字母没有连线的字母怎么弄?    
 ```
     直接进 Rotor, 不经过变换
@@ -116,8 +109,10 @@ https://www.youtube.com/watch?v=d2NWPG2gB_A
 ### 2. 补充信息:
 1 密码本(codebook) 是一张纸就是一个月的
 ![Codebook](img/hires-wehrmachtkey-bgs.jpg)
+前面几列都很好理解，无非是日期，几号轮子以及他们的顺序，还有轮子的初始设定，以及插线板设定.      
+最后那一列是用于接收方判断是哪一天的信息，然后才能根据那一天来设定机器，然后解密  
 
-2 轮子不只是能转, 还能拿出来调换顺序
+2 轮子不只是能转, 还能拿出来调换顺序  
 
 <br/>
 3 转轮不只是有数字的, 也有字母的  
@@ -139,7 +134,19 @@ https://en.wikipedia.org/wiki/Enigma_machine
 
 <br/>
 ### 任务
-暂时空
+__没有__ 
+原本的计划是我自己写一个简单的 Enigma 模拟器(M3型号，只有3个轮子), 或者网上找一个(看到py-enigma好像不错).    
+然后网上找一些真实的战时 Enigma 加密信息，然后写个 Bomba 来破解。  
+然后把这些东西做成任务形式，就像玩游戏一样, 然后其他程序员就可以看这些任务来用自己喜欢的语言写 Bomba  
+
+但实际碰到的问题是，战时的破解方法是拿一段明文去配一段密文   
+(配的意思是猜，就是他们认为这段密文等于一段明文，但是不知道是是不是百分百正确, 只是觉得正确率很高)   
+然后以此的基础上去配置 Bomba 然后去跑破解  
+我没法找到这么一段明文, 网上没人这么弄  
+网上其他人的破解挑战, 比如 http://users.telenet.be/d.rijmenants/en/challenge.htm  
+都是给你一段信息，然后让你用 Enigma 去破, 你根据线索去配置 Enigma 然后输入密文, 
+得到德文, 然后翻译成英文来理解  都是这种形式   
+所以这个计划只能取消了    
 
 
 
@@ -189,34 +196,16 @@ It consisted of the Heer (army), the Kriegsmarine (navy) and the Luftwaffe(air f
 
 <br/> 
 ### 最后  
-欢迎写其他语言的 Enigma 模拟器 或是 Bomba 然后提交到这个库(fork&pull request)  
-(注意 Enigma 有很多型号, 你得自己选一个型号写, 如果写兼容所有型号的会很花时间)
+欢迎写其他语言的 Enigma 模拟器 或是 Bomba 然后提交到这个库 (fork & pull request)  
+
+(注意 Enigma 有很多型号, 你得自己选一个型号写, 如果写兼容所有型号的会很花时间)     
+
 (记得写代码注释, 
 文件开头 5,6 行写上你的名字和写这份代码的时间, 
 可能需要的依赖库以及版本之类的,  
 以及其他你觉得需要宣传的东西)  
 
-或者你也可以写了之后放在自己的 Github 公开库, 开个 issue 告诉我,   
+或者你也可以写了之后放在自己的 Github 公开库, 开个 issue 告诉我,     
 然后我在这份 README 里面写上你 Github 库的链接  
 
 <br/>
-
-
-<!-- 
-3 图片里的最后一列，是什么？
-
-Kenngruppen: special text fragments that should be transmitted to identify the transmitter’s key settings to any receiver. This is also known as the message indicator.
-最后一列特殊信息会嵌入到最终发出的加密信息的一个固定区域里，
-用于唯一标示发送者的机器设定.
-当别人收到信息的时候，就根据固定格式，找到最后那一列的信息, 然后查表,
-来确定是昨天的信息还是刚刚发的, 或者是2天前的信息.
-然后根据那一天的设定来解码信息
-
-总结重点就是：当收到信息时，根据最后一列信息比对，从而得知信息是哪一天的信息，
-然后查表调整到对应设定，这样才能解密剩下的信息。
-
-为什么能收到昨天甚至是前天的信息？？？
-
-
-
- -->
